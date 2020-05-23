@@ -8,7 +8,7 @@ class Navbar extends React.Component {
         <li className="nav-item">
           <Link
             to="/"
-            className={window.location.pathname === "/about" ||
+            className={window.location.pathname === "/" ||
             window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
           >
             About
