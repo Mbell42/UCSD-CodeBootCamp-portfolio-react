@@ -27,3 +27,7 @@ Updated 'App.js' and 'App.css', and 'index.css'.  Added Navbar component, and sh
 ### 2020.05.23_1421
 
 After analyzing activity example of 'Grid' component, I decided to break it out into three components for 'Col', 'Row', and 'Container'.  I then updated 'Navbar' component from a function component into a class component.
+
+### 2020.05.23_1435
+
+I created 'Container' and 'Row' components' 'index.js' files.
