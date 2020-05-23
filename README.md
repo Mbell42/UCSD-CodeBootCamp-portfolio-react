@@ -8,6 +8,6 @@ My portfolio rebuilt using React
 
 Initial Commit.  Created react app and linked remote to github repo.
 
-### 2020.05.22_22~~
+### 2020.05.22_2312
 
-Ran npm i, and configured 'package.json' for heroku, and then created heroku app for project, and connected it to github project repo, enabling automatic deployments.
+Ran npm i, and configured 'package.json' for heroku, and then created heroku app for project, and connected it to github project repo, enabling automatic deployments.  I created .pngs and .ico files with my initials to be used by the project in '/assets', and added the output images to '/public/', and then updated the links in 'index.html'.
