@@ -1,15 +1,15 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function Navbar() {
-    const location = useLocation();
-  
+class Navbar extends React.Component {
+  render() {
     return (
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <Link
-            to="/about"
-            className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+            to="/"
+            className={window.location.pathname === "/about" ||
+            window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
           >
             About
           </Link>
@@ -17,7 +17,7 @@ function Navbar() {
         <li className="nav-item">
           <Link
             to="/contact"
-            className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
           >
             Contact
           </Link>
@@ -25,7 +25,7 @@ function Navbar() {
         <li className="nav-item">
           <Link
             to="/gallery"
-            className={location.pathname === "/gallery" ? "nav-link active" : "nav-link"}
+            className={window.location.pathname === "/gallery" ? "nav-link active" : "nav-link"}
           >
             Gallery
           </Link>
@@ -33,5 +33,5 @@ function Navbar() {
       </ul>
     );
   }
-  
+}
   export default Navbar;
