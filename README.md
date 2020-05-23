@@ -15,3 +15,7 @@ Ran npm i, and configured 'package.json' for heroku, and then created heroku app
 ### 2020.05.22_2335
 
 Third attempt to fix heroku build, ran 'npm run build', and created 'build' folder structure, updated 'package.json', and ran 'npm install'.
+
+### 2020.05.22_2350
+
+Added images to '/src/images' folder, and updated folder structure.
