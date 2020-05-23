@@ -19,3 +19,7 @@ Third attempt to fix heroku build, ran 'npm run build', and created 'build' fold
 ### 2020.05.22_2350
 
 Added images to '/src/images' folder, and updated folder structure.
+
+### 2020.05.23_1403
+
+Updated 'App.js' and 'App.css', and 'index.css'.  Added Navbar component, and shells for each page.
