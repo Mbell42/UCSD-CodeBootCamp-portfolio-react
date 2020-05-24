@@ -50,4 +50,8 @@ I corrected imports and syntax for class components in /pages .js files.
 
 ### 2020.05.23_2128
 
-I troubleshooted navbar for awhile, during which I re-added 'home.js' and associated links.  I created a NavWrap component to contain the navbar, and updated component naming conventions.  I am still running into an issue where each page renders below the home page.  I think I can work around this for now, by having the homepage be largely only background; However, I would like to revisit this issue later.  Added '.tavis.yml' file to root project folder.
+I troubleshooted navbar for awhile, during which I re-added 'home.js' and associated links.  I created a NavWrap component to contain the navbar, and updated component naming conventions.  I am still running into an issue where each page renders below the home page.  I think I can work around this for now, by having the homepage be largely only background; However, I would like to revisit this issue later.  
+
+### 2020.05.23_2210
+
+Added '.tavis.yml' file to root project folder.
