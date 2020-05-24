@@ -5,13 +5,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import NavWrap from "./components/NavWrap";
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 
 
 function App() {
     return (
       <Router>
-            <Navbar />
+            <NavBar />
             <NavWrap>
               <Route path="/" component={Home} />
               <Route exact path="/about" component={About} />
