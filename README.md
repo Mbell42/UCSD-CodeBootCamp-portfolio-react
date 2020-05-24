@@ -43,3 +43,7 @@ I added page shell for 'Home.js' to '/pages'.
 ### 2020.05.23_2045
 
 I commented out page shell for 'Home.js' and removed it from navbar in attempt to fix navbar behavior.  I then updated the .js files in /pages to use class components.
+
+### 2020.05.23_2054
+
+I corrected imports and syntax for class components in /pages .js files.
