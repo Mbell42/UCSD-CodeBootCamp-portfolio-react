@@ -35,3 +35,7 @@ I created 'Container' and 'Row' components' 'index.js' files.
 ### 2020.05.23_2012
 
 I added and configured Travis CI to project repo. I created 'Col' component's 'index.js' file.
+
+### 2020.05.23_2024
+
+I added page shell for 'Home.js' to '/pages'.
