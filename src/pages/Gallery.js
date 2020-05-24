@@ -1,12 +1,14 @@
 import React from "react";
 
-function Gallery() {
+class Gallery extends React.component {
+  render() {
   return (
     <div>
       <h1>Gallery</h1>
       
     </div>
   );
+  }
 }
 
 export default Gallery;

@@ -39,3 +39,7 @@ I added and configured Travis CI to project repo. I created 'Col' component's 'i
 ### 2020.05.23_2024
 
 I added page shell for 'Home.js' to '/pages'.
+
+### 2020.05.23_2045
+
+I commented out page shell for 'Home.js' and removed it from navbar in attempt to fix navbar behavior.  I then updated the .js files in /pages to use class components.
