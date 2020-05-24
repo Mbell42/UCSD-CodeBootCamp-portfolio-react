@@ -5,18 +5,18 @@ class Navbar extends React.Component {
   render() {
     return (
       <ul className="nav nav-tabs">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link
             to="/"
             className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
           >
             Home
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link
-            to="/about"
-            className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+            to="/"
+            className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
           >
             About
           </Link>
