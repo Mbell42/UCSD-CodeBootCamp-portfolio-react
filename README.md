@@ -55,3 +55,7 @@ I troubleshooted navbar for awhile, during which I re-added 'home.js' and associ
 ### 2020.05.23_2210
 
 Added '.tavis.yml' file to root project folder.
+
+### 2020.05.23_2302
+
+Removed '.tavis.yml' file from root project folder, and removed travis ci from project for now.  I do not have ruby installed in order to get trvis cli in order to get api key.
