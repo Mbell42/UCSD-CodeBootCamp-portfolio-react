@@ -1,23 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from "../../../node_modules/react-router-dom";
 
-class Navbar extends React.Component {
+class NavBar extends Component {
   render() {
     return (
       <div>
         <ul className="nav nav-tabs">
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <Link
               to="/"
               className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
             >
               Home
             </Link>
-          </li> */}
+          </li>
           <li className="nav-item">
             <Link
-              to="/"
-              className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+              to="/about"
+              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
             >
               About
             </Link>
@@ -43,4 +43,4 @@ class Navbar extends React.Component {
     );
   }
 }
-  export default Navbar;
+  export default NavBar;
