@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import NavWrap from "./components/NavWrap";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 
 
 function App() {
