@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
-import NavWrap from "./src/components/NavWrap";
-import NavBar from "./src/components/NavBar";
+import NavWrap from "./src/components/NavWrap/index.js";
+import NavBar from "./src/components/NavBar/index.js";
 
 
 function App() {
