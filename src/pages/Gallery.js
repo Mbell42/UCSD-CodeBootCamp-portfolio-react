@@ -30,7 +30,7 @@ class Gallery extends Component {
                   <row className="row">
                     <div className="col-lg-4 col-md-4 col-sm-4">
                       <div className="card h-100 cardLeft">
-                        <a href="https://github.com/Mbell42/07_project-01"><img className="media img-rounded img-responsive card-img-top" src="../images/currency-app-square.png" alt="CurrencyExchangePro" /></a>
+                        <a href="https://github.com/Mbell42/07_project-01"><img className="media img-rounded img-responsive card-img-top" src={require("../images/projects/currency-app-square.png")} alt="CurrencyExchangePro" /></a>
                         <div className="card-body">
                           <a href="https://github.com/Mbell42/07_project-01" target={"blank"}>
                             <p className="card-title text-center linkText">CurrencyExchangePro</p>
@@ -43,7 +43,7 @@ class Gallery extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4">
                       <div className="card h-100 cardMid">
-                        <a href="https://github.com/Mbell42/06_weather-dashboard"><img className="media img-rounded img-responsive card-img-top" src="../images/weather-dashboard-square.png" alt="weather-dashboard" /></a>
+                        <a href="https://github.com/Mbell42/06_weather-dashboard"><img className="media img-rounded img-responsive card-img-top" src={require("../images/projects/weather-dashboard-square.png")} alt="weather-dashboard" /></a>
                         <div className="card-body">
                           <a href="https://github.com/Mbell42/06_weather-dashboard" target={"blank"}>
                             <p className="card-title text-center linkText">Weather Dashboard</p>
@@ -56,7 +56,7 @@ class Gallery extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4">
                       <div className="card h-100 cardRight">
-                        <a href="https://github.com/Mbell42/05_work-day-scheduler"><img className="media img-rounded img-responsive card-img-top" src="../images/day-scheduler-square.png" alt="work-day-scheduler" /></a>
+                        <a href="https://github.com/Mbell42/05_work-day-scheduler"><img className="media img-rounded img-responsive card-img-top" src={require("../images/projects/day-scheduler-square.png")} alt="work-day-scheduler" /></a>
                         <div className="card-body">
                           <a href="https://github.com/Mbell42/05_work-day-scheduler" target={"blank"}>
                             <p className="card-title text-center linkText">Work Day Scheduler</p>
@@ -73,7 +73,7 @@ class Gallery extends Component {
                   <row className="row">
                     <div className="col-lg-4 col-md-4 col-sm-4">
                       <div className="card h-100 cardRight">
-                        <a href="https://github.com/Mbell42/project2"><img className="media img-rounded img-responsive card-img-top" src="../images/project2_minute-page-square.jpg" alt="Project 2 - Minute Page" /></a>
+                        <a href="https://github.com/Mbell42/project2"><img className="media img-rounded img-responsive card-img-top" src={require("../images/projects/project2_minute-page-square.jpg")} alt="Project 2 - Minute Page" /></a>
                         <div className="card-body">
                           <a href="https://github.com/Mbell42/project2" target={"blank"}>
                             <p className="card-title text-center linkText">Project 2 - Minute Page</p>
@@ -86,7 +86,7 @@ class Gallery extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4">
                       <div className="card h-100 cardRight">
-                        <a href="https://github.com/Mbell42/generator-pw-random"><img className="media img-rounded img-responsive card-img-top" src="../images/randomPwGen-square.png" alt="Random Password Generator" /></a>
+                        <a href="https://github.com/Mbell42/generator-pw-random"><img className="media img-rounded img-responsive card-img-top" src={require("../images/projects/randomPwGen-square.png")} alt="Random Password Generator" /></a>
                         <div className="card-body">
                           <a href="https://github.com/Mbell42/generator-pw-random" target={"blank"}>
                             <p className="card-title text-center linkText">Random Password Generator</p>
@@ -99,7 +99,7 @@ class Gallery extends Component {
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4">
                       <div className="card h-100 cardRight">
-                        <a href="https://github.com/Mbell42/10_TemplateEngine-EmployeeSummary"><img className="media img-rounded img-responsive card-img-top" src="../images/employee-summary-square.png" alt="TemplateEngine-EmployeeSummary" /></a>
+                        <a href="https://github.com/Mbell42/10_TemplateEngine-EmployeeSummary"><img className="media img-rounded img-responsive card-img-top" src={require("../images/projects/employee-summary-square.png")} alt="TemplateEngine-EmployeeSummary" /></a>
                         <div className="card-body">
                           <a href="https://github.com/Mbell42/10_TemplateEngine-EmployeeSummary" target={"blank"}>
                             <p className="card-title text-center linkText">TemplateEngine-EmployeeSummary</p>
