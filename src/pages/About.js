@@ -28,7 +28,7 @@ class About extends Component {
                   </row>
                   <row className="row">
                     <div className="col-lg-5 col-md-5 col-sm-5">
-                      <img className="media img-responsive img-rounded" id="myPic" src="../images/portrait/MB-1-square.jpg" alt="Matthew Bell" height={350} width={350} />
+                      <img className="media img-responsive img-rounded" id="myPic" src={require("../images/portrait/MB-1-square.jpg")} alt="Matthew Bell" height={350} width={350} />
                     </div> 
                     {/* <div class="col-md-1">&nbsp;</div> */}
                     <div className="col-lg-7 col-md-7 col-sm-7">
