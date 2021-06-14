@@ -1,4 +1,4 @@
-# portfolio-react
+# UCSD-CodeBootCamp-portfolio-react
 
 My portfolio rebuilt using React
 
